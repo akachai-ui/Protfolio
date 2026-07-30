@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akachai Habantan - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* A4 Paper Settings */
+        @page { size: A4; margin: 0; }
+        body { 
+            margin: 0; 
+            font-family: 'Inter', 'Prompt', sans-serif; 
+            background: #e0e0e0; 
+            color: #333;
+            -webkit-print-color-adjust: exact;
+        }
+        .page { 
+            width: 210mm; 
+            min-height: 297mm; 
+            padding: 12mm 15mm; 
+            margin: 10mm auto; 
+            background: white; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+            box-sizing: border-box;
+        }
+        @media print {
+            body { background: white; }
+            .page { 
+                margin: 0; 
+                box-shadow: none; 
+                width: 100%; 
+                min-height: 100%; 
+                padding: 12mm 15mm; 
+            }
+            .no-print { display: none; }
+        }
+        
+        /* Typography & Layout */
+        .header { display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #222; padding-bottom: 10px; margin-bottom: 12px; text-align: left; }
+        h1 { font-size: 20pt; margin: 0; color: #111; letter-spacing: 1px; }
+        h2 { font-size: 11pt; margin: 3px 0 5px 0; color: #555; font-weight: normal; }
+        .contact { font-size: 9pt; color: #444; }
+        
+        .section-title { 
+            font-size: 11pt; 
+            color: #111; 
+            border-bottom: 1px solid #ddd; 
+            margin-top: 12px; 
+            margin-bottom: 8px; 
+            padding-bottom: 3px; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px;
+        }
+        
+        .summary { font-size: 9pt; line-height: 1.5; text-align: justify; }
+        
+        .item { margin-bottom: 8px; }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .job-title { font-size: 9.5pt; font-weight: bold; margin: 0; color: #222; }
+        .date { font-size: 8.5pt; color: #666; font-weight: 600; }
+        .company { font-size: 9pt; color: #555; margin: 2px 0 4px 0; font-style: italic; }
+        
+        ul { margin-top: 3px; padding-left: 20px; font-size: 9pt; line-height: 1.4; color: #444; margin-bottom: 0; }
+        li { margin-bottom: 3px; }
+        
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 9pt; line-height: 1.4; }
+        .skill-group strong { display: block; color: #222; margin-bottom: 2px; }
+        
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #FFD700;
+            color: #111;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            font-family: 'Prompt', sans-serif;
+            transition: 0.3s;
+        }
+        .print-btn:hover { background: #e6c200; transform: scale(1.05); }
+    </style>
+</head>
+<body onload="setTimeout(() => window.print(), 500)">
+
+    <!-- Print Button (Hidden during print) -->
+    <button class="print-btn no-print" onclick="window.print()">🖨️ บันทึกเป็น PDF (Save as PDF)</button>
+
+    <div class="page">
+        
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>AKACHAI HABANTAN</h1>
+                <h2>Operations, Sales, Data & Management (Hybrid Professional)</h2>
+                <div class="contact">
+                    📞 092-479-7666 | 📧 akachaiha@gmail.com<br>
+                    🔗 Portfolio: <a href="https://protfolio-eight-orcin.vercel.app/" target="_blank" style="color: #444; text-decoration: none;">protfolio-eight-orcin.vercel.app</a>
+                </div>
+            </div>
+            <div>
+                <img src="image/profile.jpeg" alt="Akachai" style="width: 90px; height: 90px; object-fit: cover; border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            ผู้เชี่ยวชาญที่มีประสบการณ์แบบผสมผสาน (Hybrid Skills) ตั้งแต่การวิเคราะห์ข้อมูลยอดขาย (Data Analysis), การเจรจาธุรกิจ B2B ไปจนถึง <strong>การพัฒนาระบบไอทีด้วยตนเอง</strong> พร้อมนำข้อมูล (Data) และทักษะปฏิบัติการ (Operations) มาช่วยสร้างกลยุทธ์ เพิ่มยอดขาย ลดข้อผิดพลาด และยกระดับการทำงานแบบ Automation ให้กับองค์กร
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="section-title">Core Competencies & Skills</div>
+        <div class="grid-2">
+            <div class="skill-group">
+                <strong>📊 Sales Data Analysis & Reporting:</strong>
+                ดึงข้อมูลดิบมาวิเคราะห์หา Insight และจัดทำรายงานสรุป (Daily/Weekly) เพื่อให้ผู้บริหารปรับกลยุทธ์ได้ทันท่วงที
+            </div>
+            <div class="skill-group">
+                <strong>🤝 B2B Sales & Key Account Management:</strong>
+                คุ้นเคยระบบจัดซื้อลูกค้าระดับ Modern Trade (HomePro, Lotus's, Makro) และผลักดันสินค้าเข้าช่องทางใหม่ๆ
+            </div>
+            <div class="skill-group">
+                <strong>💻 Process Improvement & IT Solutions:</strong>
+                พัฒนาโปรแกรมระบบขึ้นมาใช้งานเองได้ (POS, HR, Inventory) เพื่อลดข้อผิดพลาดและทำงานแบบอัตโนมัติ (HTML, CSS, JS, Firebase)
+            </div>
+            <div class="skill-group">
+                <strong>🚚 Operations & Inventory Management:</strong>
+                บริหารทีมงาน (People Management), จัดสรรพื้นที่, และคุมคลังสินค้าได้อย่างแม่นยำ
+            </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="section-title">Work Experience</div>
+        
+        <div class="item">
+            <div class="job-header">
+                <div class="job-title">Medical Representative (B2B Direct Sales)</div>
+                <div class="date">ก.ค. 2568 - ธ.ค. 2568</div>
+            </div>
+            <div class="company">บริษัท มิสเตอร์ เบอร์ จำกัด (Mr. Bur)</div>
+            <ul>
+                <li>เข้าพบแพทย์ตามคลินิกและโรงพยาบาล (Direct Sales) เพื่อนำเสนอเครื่องมือแพทย์ และผลักดันยอดขายให้บรรลุเป้าหมาย</li>
+                <li>มีทักษะนำเสนอและสร้างความสัมพันธ์กับลูกค้าระดับเชี่ยวชาญ (Professional Client) อย่างมืออาชีพ</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="job-header">
+                <div class="job-title">Sales Executive (Modern Trade)</div>
+                <div class="date">ม.ค. 2568 - มิ.ย. 2568</div>
+            </div>
+            <div class="company">Mahn Co., Ltd.</div>
+            <ul>
+                <li>ติดต่อเจรจากับฝ่ายจัดซื้อของห้างสรรพสินค้า (Modern Trade) เพื่อนำเสนอและผลักดันสินค้าให้ได้วางจำหน่าย</li>
+                <li>รับผิดชอบดูแลลูกค้ารายใหญ่ (Key Accounts) ได้แก่ HomePro, Mega Home, DoHome, Thai Watsadu, Lotus's และ Makro</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="job-header">
+                <div class="job-title">Facility & IT Operations Manager</div>
+                <div class="date">2561 - 2567</div>
+            </div>
+            <div class="company">สำนักนวัตกรรมการเรียนรู้ มหาวิทยาลัยศรีนครินทรวิโรฒ (SWU)</div>
+            <ul>
+                <li>บริหารจัดการพื้นที่และระบบสาธารณูปโภค เป็นหัวหน้าควบคุมทีมช่างอาคารและแม่บ้าน</li>
+                <li>วางแผนจัดซื้ออุปกรณ์ และ <strong>"พัฒนาโปรแกรมระบบสารสนเทศด้วยตนเอง"</strong> (ระบบ Inventory, ระบบจองห้อง) เพื่อเพิ่มประสิทธิภาพ</li>
+                <li>จัดทำรายงานสรุปผลการปฏิบัติงานภาพรวมเสนอผู้บริหารระดับสูง</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="job-header">
+                <div class="job-title">B2B Sales Executive</div>
+                <div class="date">2559 - 2560</div>
+            </div>
+            <div class="company">บริษัท แอด ออน จำกัด (Ad On Co., Ltd.)</div>
+            <ul>
+                <li>นำเสนอสินค้ากลุ่มอุปกรณ์จัดแสดงสินค้า (Exhibition Display) ให้ลูกค้าองค์กร ปิดการขายโปรเจกต์ขนาดใหญ่</li>
+                <li>รับผิดชอบกระบวนการขายทั้งหมด ตั้งแต่ให้คำปรึกษา คำนวณพื้นที่ ไปจนถึงส่งมอบงาน</li>
+            </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="section-title">Education</div>
+        <div class="item" style="margin-bottom: 5px;">
+            <strong>ปริญญาตรี สาขาเทคนิคการตลาด</strong> - มหาวิทยาลัยรัตนบัณฑิต (สำเร็จการศึกษา: 2558)
+        </div>
+        <div class="item">
+            <strong>ปวส. การตลาด / ปวช. การขาย</strong> - วิทยาลัยอาชีวศึกษาพณิชยการจำนงค์
+        </div>
+
+    </div>
+</body>
+</html>

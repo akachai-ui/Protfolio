@@ -1,0 +1,79 @@
+====================================================
+RESUME DATA: AKACHAI HABANTAN (MAX)
+====================================================
+
+[ 1. PROFILE ]
+Name: Akachai Habantan (Max)
+Title: Operations, Sales, Data & Management (Hybrid Professional)
+Phone: 092-479-7666
+Email: akachaiha@gmail.com
+
+Summary: 
+ผู้เชี่ยวชาญที่มีประสบการณ์แบบผสมผสาน (Hybrid Skills) ตั้งแต่การวิเคราะห์ข้อมูลยอดขาย (Data Analysis), การเจรจาธุรกิจ B2B ไปจนถึง "การพัฒนาระบบไอทีด้วยตนเอง" พร้อมนำ Data และทักษะ Operations มาช่วยสร้างกลยุทธ์ เพิ่มยอดขาย และยกระดับการทำงานให้กับองค์กร
+
+----------------------------------------------------
+
+[ 2. CORE COMPETENCIES & STRENGTHS ]
+1. Sales Data Analysis & Reporting: ดึงข้อมูลดิบมาวิเคราะห์หา Insight และจัดทำรายงานสรุป (Daily/Weekly Report) เพื่อนำเสนอผู้บริหาร
+2. B2B Sales & Key Account Management: คุ้นเคยระบบจัดซื้อลูกค้าระดับ Modern Trade (HomePro, Lotus's, Makro) และเจรจาต่อรองดันสินค้าเข้าช่องทางใหม่ๆ
+3. Process Improvement & IT Solutions: เขียนโปรแกรมสร้างระบบใช้งานเองได้ (POS, Inventory, HR) เพื่อลดข้อผิดพลาดและเปลี่ยนงานเป็นอัตโนมัติ
+4. Operations, Space & Inventory Management: คุมทีมงาน จัดสรรพื้นที่จัดแสดง และควบคุมคลังสินค้าที่แม่นยำ
+
+* Tech Skills: Data Analysis, Web Development (HTML/CSS/JS), Order Management Systems
+* Operations: Inventory Control, Process Improvement, Reporting
+* Soft Skills: Team Coordination, Leadership, Customer Service
+
+----------------------------------------------------
+
+[ 3. EDUCATION ]
+* ปริญญาตรี สาขาเทคนิคการตลาด - มหาวิทยาลัยรัตนบัณฑิต (สำเร็จการศึกษา 2558)
+* ปวส. การตลาด / ปวช. การขาย - วิทยาลัยอาชีวศึกษาพณิชยการจำนงค์
+
+----------------------------------------------------
+
+[ 4. WORK EXPERIENCE ]
+
+1. Medical Representative (B2B Direct Sales)
+Company: บริษัท มิสเตอร์ เบอร์ จำกัด (Mr. Bur)
+Period: ก.ค. 2568 - ธ.ค. 2568
+- เข้าพบแพทย์ตามคลินิกและโรงพยาบาล เพื่อนำเสนอเครื่องมือแพทย์ และผลักดันยอดขายให้บรรลุเป้าหมาย
+- มีทักษะนำเสนอและสร้างความสัมพันธ์กับลูกค้าระดับเชี่ยวชาญ (Professional Client)
+
+2. Sales Executive (Modern Trade)
+Company: Mahn Co., Ltd.
+Period: ม.ค. 2568 - มิ.ย. 2568
+- ติดต่อเจรจากับฝ่ายจัดซื้อของห้างสรรพสินค้า (Modern Trade) เพื่อผลักดันสินค้าวางจำหน่าย
+- ดูแลลูกค้ารายใหญ่ (Key Accounts) เช่น HomePro, Mega Home, DoHome, Thai Watsadu, Lotus's, Makro
+
+3. Facility & IT Operations Manager
+Company: สำนักนวัตกรรมการเรียนรู้ มหาวิทยาลัยศรีนครินทรวิโรฒ (SWU)
+Period: 2561 - 2567
+- บริหารจัดการพื้นที่และระบบสาธารณูปโภค ควบคุมทีมช่างอาคารและแม่บ้าน
+- วางแผนจัดซื้ออุปกรณ์ และ "พัฒนาโปรแกรมระบบสารสนเทศด้วยตนเอง" (ระบบ Inventory, ระบบจองห้อง)
+- จัดทำรายงานสรุปผลการปฏิบัติงานภาพรวมเสนอผู้บริหาร
+
+4. B2B Sales Executive
+Company: บริษัท แอด ออน จำกัด (Ad On Co., Ltd.)
+Period: 2559 - 2560
+- นำเสนอสินค้ากลุ่มอุปกรณ์จัดแสดงสินค้า (Exhibition Display) ให้ลูกค้าองค์กร และปิดการขายโปรเจกต์ใหญ่
+- วางแผนและคำนวณการใช้วัสดุให้พอดีกับขนาดพื้นที่ลูกค้า
+- รับผิดชอบกระบวนการขายทั้งหมด ตั้งแต่ให้คำปรึกษาจนถึงส่งมอบงาน
+
+5. Senior Staff (Operations, F&B, Box Office)
+Company: Major Cineplex
+Period: 2555 - 2558
+- จัดตารางเข้างานของทีมงาน บริหารความสะอาด และบริการลูกค้า
+- วางแผนการผลิตและบริหาร Stock วัตถุดิบแผนก F&B ให้สอดคล้องกับยอดผู้เข้าชม
+- นำเสนอขายบัตรสมาชิก (Upselling) ให้ได้ตามเป้าหมาย พร้อมทำ Daily Report
+
+----------------------------------------------------
+
+[ 5. IT PROJECTS & PORTFOLIOS ]
+1. Live Sales Performance Dashboard (ระบบจำลองวิเคราะห์ข้อมูลยอดขาย)
+2. POS System - ระบบจัดการหน้าร้าน (Tech Stack: HTML, CSS, JS, Firebase)
+3. HR Management - ระบบบริหารจัดการบุคลากร (Tech Stack: HTML, CSS, JS, Firebase)
+4. Corporate Website - เว็บไซต์นำเสนอธุรกิจ (Tech Stack: HTML, CSS, JS, Bootstrap)
+5. Content & Graphic Design - ผลงานออกแบบสื่อประชาสัมพันธ์ (Facebook Pages)
+
+----------------------------------------------------
+[ END OF DATA ]
