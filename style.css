@@ -100,3 +100,38 @@ footer { text-align: center; padding: 2rem; color: var(--text-muted); border-top
     .glass { padding: 1.2rem; }
     .job-title { font-size: 1.2rem; }
 }
+
+/* Floating Contact Buttons */
+.floating-contact {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 9999;
+}
+.float-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.float-btn:hover {
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.phone-btn {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+.line-btn {
+    background: linear-gradient(135deg, #00c300, #009900);
+}
